@@ -3,3 +3,23 @@ body {
    flex-direction: column;
 }
 
+.header {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 24px;
+    font-family: "roboto";
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
