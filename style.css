@@ -1,17 +1,17 @@
 body {
    display: flex;
    flex-direction: column;
+   font-family: "roboto";
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
     font-size: 24px;
-    font-family: "roboto";
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 16px 100px 16px 100px;
 }
 
 ul {
@@ -21,5 +21,53 @@ ul {
     margin: 0;
     padding: 0;
     gap: 20px;
+    color: #E5E7EB;
 }
 
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px 100px 50px 100px;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 400px;
+    height: auto;
+    flex: 0 0.5 auto;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-image {
+    height: 250px;
+    width: auto;
+}
+
+.hero-subtext {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-family: "roboto";
+    font-weight: 600;
+    width: 100px;
+    height: 2em;
+    border-radius: 8px;
+}
+
+button.call {
+    border: 1px solid white;
+}
