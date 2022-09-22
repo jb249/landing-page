@@ -2,6 +2,8 @@ body {
    display: flex;
    flex-direction: column;
    font-family: "roboto";
+   margin: 0; 
+   padding: 0;
 }
 
 .header {
@@ -31,7 +33,7 @@ ul {
     color: #F9FAF8;
     padding: 50px 100px 50px 100px;
     align-items: center;
-    gap: 50px;
+    justify-content: space-between;
 }
 
 .hero-container {
@@ -51,6 +53,7 @@ ul {
 .hero-image {
     height: 250px;
     width: auto;
+    flex: 0 2 0;
 }
 
 .hero-subtext {
@@ -75,9 +78,9 @@ button.call {
 .info-container {
     display: flex;
     flex-direction: column;
-    padding: 40px 100px 80px 100px;
+    padding: 40px 100px 100px 100px;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .info-title {
@@ -102,4 +105,25 @@ button.call {
     align-items: center;
     text-align: center;
     gap: 5px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 50px 100px;
+    background-color: #E5E7EB;
+    gap: 10px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.speaker {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
 }
