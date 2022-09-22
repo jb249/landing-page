@@ -71,3 +71,35 @@ button {
 button.call {
     border: 1px solid white;
 }
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px 80px 100px;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.four-items {
+    display: flex;
+    gap: 16px;
+}
+
+.coffee {
+    width: 100px;
+    height: auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
