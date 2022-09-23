@@ -23,7 +23,11 @@ ul {
     margin: 0;
     padding: 0;
     gap: 20px;
+}
+
+a {
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .section-2 {
@@ -34,6 +38,7 @@ ul {
     padding: 50px 100px 50px 100px;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .hero-container {
@@ -69,6 +74,7 @@ button {
     width: 100px;
     height: 2em;
     border-radius: 8px;
+    flex: 0 0 auto;
 }
 
 button.call {
@@ -130,7 +136,20 @@ button.call {
 
 .call-to-action {
     display: flex;
+    margin: 0;
     padding: 50px 100px 50px 100px;
+}
+
+.blue-box {
+    display: flex;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 40px 80px 40px 80px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .footer {
@@ -141,4 +160,18 @@ button.call {
     justify-content: center;
     align-items: center;
     padding: 24px 100px 24px 100px;
+}
+
+.box-title,
+.box-subtext {
+    color: #F9FAF8;
+}
+
+.box-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-subtext {
+    font-size: 16px;
 }
